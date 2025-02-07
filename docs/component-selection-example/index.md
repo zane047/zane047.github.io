@@ -34,7 +34,7 @@ title: Component Selection Example
     * $1/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
 
-    | **Pros**                                  | **Cons**                                                         |
+    | Pros                                  | Cons                                                         |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Inexpensive                               | Requires external components and support circuitry for interface |
     | Compatible with PSoC                      | Needs special PCB layout.                                        |
@@ -47,7 +47,7 @@ title: Component Selection Example
     * $1/each
     * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
 
-    | **Pros**                                                          | **Cons**            |
+    | Pros                                                          | Cons            |
     | ----------------------------------------------------------------- | ------------------- |
     | Outputs a square wave                                             | More expensive      |
     | Stable over operating temperature                                 | Slow shipping speed |
