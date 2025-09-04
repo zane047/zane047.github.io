@@ -17,4 +17,4 @@ Ben  | silly
 ### Here is a sub heading
 
 1. Step 1
-1. Step 2
+2. Step 2
