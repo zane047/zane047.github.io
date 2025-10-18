@@ -1,121 +1,58 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Your Document Title</title>
-  <meta name="description" content="Describe this page for SEO." />
-  <style>
-    :root {
-      --bg: #ffffff; --fg: #0f172a;
-      --muted: #475569; --border: #e2e8f0; --link: #2563eb;
-      --code-bg: #0b1020; --code-fg: #e5e7eb;
-      --maxw: 820px;
-    }
-    * { box-sizing: border-box; }
-    html,body { margin:0; padding:0; }
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
-      line-height: 1.6; color: var(--fg); background: var(--bg);
-    }
-    header, main, footer { width: 100%; }
-    .container { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1rem; }
-    header h1 { margin: 0 0 0.25rem; line-height: 1.2; }
-    header p { margin: 0; color: var(--muted); }
-    h1, h2, h3, h4 { line-height: 1.25; margin: 2rem 0 0.75rem; }
-    p { margin: 1rem 0; }
-    ul, ol { padding-left: 1.5rem; margin: 1rem 0; }
-    li + li { margin-top: 0.25rem; }
-    a { color: var(--link); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
-    blockquote {
-      margin: 1.25rem 0; padding: 0.75rem 1rem;
-      border-left: 4px solid var(--border); background: #f8fafc;
-    }
-    img, video { max-width: 100%; height: auto; }
-    figure { margin: 1.25rem 0; }
-    figcaption { color: var(--muted); font-size: 0.925rem; margin-top: 0.25rem; }
-    table { width:100%; border-collapse: collapse; margin: 1.25rem 0; }
-    th, td { border:1px solid var(--border); padding: 0.625rem; text-align:left; }
-    thead th { background:#f8fafc; }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    pre {
-      background: var(--code-bg); color: var(--code-fg); padding: 1rem;
-      border-radius: 8px; overflow:auto; margin: 1rem 0;
-    }
-    .lead { font-size: 1.125rem; color: var(--muted); }
-    .small { font-size: 0.925rem; color: var(--muted); }
-    footer { border-top: 1px solid var(--border); }
-    @media print {
-      .container { padding: 0; }
-      a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.85em; }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Your Document Title</h1>
-      <p class="lead">Optional subtitle or summary goes here.</p>
-    </div>
-  </header>
+---
+title: Component Selection Example
+---
 
-  <main>
-    <div class="container">
-      <!-- ======= Start pasting your content below ======= -->
-      <h2>Section Heading</h2>
-      <p>Paragraph text from your Google Doc. You can keep <strong>bold</strong>, <em>italic</em>, and <a href="#">links</a>.</p>
+## Examples
 
-      <h3>Bulleted list</h3>
-      <ul>
-        <li>First point</li>
-        <li>Second point</li>
-        <li>Third point</li>
-      </ul>
+### Style 1
 
-      <h3>Numbered steps</h3>
-      <ol>
-        <li>Do this</li>
-        <li>Then this</li>
-        <li>Finally this</li>
-      </ol>
+> This is the example found in the assignment, uses more html
 
-      <h3>Image example</h3>
-      <figure>
-        <img src="images/your-image.png" alt="Describe the image">
-        <figcaption>Optional caption for accessibility and context.</figcaption>
-      </figure>
+*Table 1: Example component selection*
 
-      <h3>Table example</h3>
-      <table>
-        <thead>
-          <tr><th>Column A</th><th>Column B</th><th>Column C</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Row 1</td><td>Data</td><td>More</td></tr>
-          <tr><td>Row 2</td><td>Data</td><td>More</td></tr>
-        </tbody>
-      </table>
+**External Clock Module**
 
-      <h3>Code block</h3>
-      <pre><code>// Example code snippet
-function hello() {
-  console.log("Hello world");
-}
-</code></pre>
-      <!-- ======= End paste area ======= -->
-    </div>
-  </main>
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
+| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
 
-  <footer>
-    <div class="container">
-      <p class="small">© <span id="year"></span> Your Name or Org</p>
-    </div>
-  </footer>
+**Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+
+### Style 2
+
+> Also acceptable, more markdown friendly
+
+**External Clock Module**
+
+1. XC1259TR-ND surface mount crystal
+
+    ![](image1.png)
+
+    * $1/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+1. CTX936TR-ND surface mount oscillator
+
+    ![](image3.png)
+
+    * $1/each
+    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Outputs a square wave                                             | More expensive      |
+    | Stable over operating temperature                                 | Slow shipping speed |
+    | Direct interface with PSoC (no external circuitry required) range |
+
+**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+
+**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
