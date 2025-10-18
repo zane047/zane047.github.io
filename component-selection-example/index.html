@@ -26,7 +26,7 @@
 
     
       
-        <title>Index - EGR314 Report Template</title>
+        <title>Component Selection Example - EGR314 Report Template</title>
       
     
     
@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#examples" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -120,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Index
+              Component Selection Example
             
           </span>
         </div>
@@ -692,6 +697,47 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#style-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Style 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#style-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Style 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -713,123 +759,107 @@
   
 
 
+  <h1>Component Selection Example</h1>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Your Document Title</title>
-  <meta name="description" content="Describe this page for SEO.">
-  <style>
-    :root {
-      --bg: #ffffff; --fg: #0f172a;
-      --muted: #475569; --border: #e2e8f0; --link: #2563eb;
-      --code-bg: #0b1020; --code-fg: #e5e7eb;
-      --maxw: 820px;
-    }
-    * { box-sizing: border-box; }
-    html,body { margin:0; padding:0; }
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
-      line-height: 1.6; color: var(--fg); background: var(--bg);
-    }
-    header, main, footer { width: 100%; }
-    .container { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1rem; }
-    header h1 { margin: 0 0 0.25rem; line-height: 1.2; }
-    header p { margin: 0; color: var(--muted); }
-    h1, h2, h3, h4 { line-height: 1.25; margin: 2rem 0 0.75rem; }
-    p { margin: 1rem 0; }
-    ul, ol { padding-left: 1.5rem; margin: 1rem 0; }
-    li + li { margin-top: 0.25rem; }
-    a { color: var(--link); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    hr { border: 0; border-top: 1px solid var(--border); margin: 2rem 0; }
-    blockquote {
-      margin: 1.25rem 0; padding: 0.75rem 1rem;
-      border-left: 4px solid var(--border); background: #f8fafc;
-    }
-    img, video { max-width: 100%; height: auto; }
-    figure { margin: 1.25rem 0; }
-    figcaption { color: var(--muted); font-size: 0.925rem; margin-top: 0.25rem; }
-    table { width:100%; border-collapse: collapse; margin: 1.25rem 0; }
-    th, td { border:1px solid var(--border); padding: 0.625rem; text-align:left; }
-    thead th { background:#f8fafc; }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    pre {
-      background: var(--code-bg); color: var(--code-fg); padding: 1rem;
-      border-radius: 8px; overflow:auto; margin: 1rem 0;
-    }
-    .lead { font-size: 1.125rem; color: var(--muted); }
-    .small { font-size: 0.925rem; color: var(--muted); }
-    footer { border-top: 1px solid var(--border); }
-    @media print {
-      .container { padding: 0; }
-      a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.85em; }
-    }
-  </style>
-
-
-  <header>
-    <div class="container">
-      <h1>Your Document Title</h1>
-      <p class="lead">Optional subtitle or summary goes here.</p>
-    </div>
-  </header>
-
-  <main>
-    <div class="container">
-      <!-- ======= Start pasting your content below ======= -->
-      <h2>Section Heading</h2>
-      <p>Paragraph text from your Google Doc. You can keep <strong>bold</strong>, <em>italic</em>, and <a href="#">links</a>.</p>
-
-      <h3>Bulleted list</h3>
-      <ul>
-        <li>First point</li>
-        <li>Second point</li>
-        <li>Third point</li>
-      </ul>
-
-      <h3>Numbered steps</h3>
-      <ol>
-        <li>Do this</li>
-        <li>Then this</li>
-        <li>Finally this</li>
-      </ol>
-
-      <h3>Image example</h3>
-      <figure>
-        <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="images/your-image.png" data-desc-position="bottom"><img src="images/your-image.png" alt="Describe the image"></a>
-        <figcaption>Optional caption for accessibility and context.</figcaption>
-      </figure>
-
-      <h3>Table example</h3>
-      <table>
-        <thead>
-          <tr><th>Column A</th><th>Column B</th><th>Column C</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Row 1</td><td>Data</td><td>More</td></tr>
-          <tr><td>Row 2</td><td>Data</td><td>More</td></tr>
-        </tbody>
-      </table>
-
-      <h3>Code block</h3>
-      <pre><code>// Example code snippet
-function hello() {
-  console.log("Hello world");
-}
-</code></pre>
-      <!-- ======= End paste area ======= -->
-    </div>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p class="small">© <span id="year"></span> Your Name or Org</p>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+<h2 id="examples">Examples</h2>
+<h3 id="style-1">Style 1</h3>
+<blockquote>
+<p>This is the example found in the assignment, uses more html</p>
+</blockquote>
+<p><em>Table 1: Example component selection</em></p>
+<p><strong>External Clock Module</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image1.png" data-desc-position="bottom"><img alt="" src="image1.png"></a><br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></td>
+<td>* Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project</td>
+<td>* Requires external components and support circuitry for interface<br>* Needs special PCB layout.</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image3.png" data-desc-position="bottom"><img alt="" src="image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
+<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
+<td>* More expensive <br>* Slow shipping speed</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
+<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<h3 id="style-2">Style 2</h3>
+<blockquote>
+<p>Also acceptable, more markdown friendly</p>
+</blockquote>
+<p><strong>External Clock Module</strong></p>
+<ol>
+<li>
+<p>XC1259TR-ND surface mount crystal</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image1.png" data-desc-position="bottom"><img alt="" src="image1.png"></a></p>
+<ul>
+<li>$1/each</li>
+<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inexpensive</td>
+<td>Requires external components and support circuitry for interface</td>
+</tr>
+<tr>
+<td>Compatible with PSoC</td>
+<td>Needs special PCB layout.</td>
+</tr>
+<tr>
+<td>Meets surface mount constraint of project</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>CTX936TR-ND surface mount oscillator</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="image3.png" data-desc-position="bottom"><img alt="" src="image3.png"></a></p>
+<ul>
+<li>$1/each</li>
+<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outputs a square wave</td>
+<td>More expensive</td>
+</tr>
+<tr>
+<td>Stable over operating temperature</td>
+<td>Slow shipping speed</td>
+</tr>
+<tr>
+<td>Direct interface with PSoC (no external circuitry required) range</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
+<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
 
 
 
@@ -837,7 +867,8 @@ function hello() {
 
 
 
-
+  
+  
 
 
 
