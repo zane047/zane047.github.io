@@ -65,7 +65,7 @@
           <span class="muted">Product page:</span>
           <a href="https://www.digikey.com/en/products/filter/linear-voltage-regulators/699">https://www.digikey.com/en/products/filter/linear-voltage-regulators/699</a>
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/7805_voltage_regulator.jpg" alt="7805 Linear Regulator">
+            <img src="Thing_1.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -87,7 +87,7 @@
           <span class="muted">Product page:</span>
           <a href="https://www.digikey.com/en/products/filter/dc-dc-converters/882">https://www.digikey.com/en/products/filter/dc-dc-converters/882</a>
           <div>
-            <img src="https://cdn.sparkfun.com//assets/parts/1/4/2/9/3/18018-Mini_Voltage_Regulator_5V-01.jpg" alt="5V Buck Module">
+            <img src="Thing_2.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -109,7 +109,7 @@
           <span class="muted">Product page:</span>
           <a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP1825S-5002E-AB/1505941">https://www.digikey.com/en/products/detail/microchip-technology/MCP1825S-5002E-AB/1505941</a>
           <div>
-            <img src="https://media.digikey.com/Photos/Microchip%20Technology%20Photos/MCP1825S-3302E-AB.jpg" alt="MCP1825S-5002 LDO">
+            <img src="Thing_3.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -147,7 +147,7 @@
           <span class="muted">TI product page:</span>
           <a href="https://www.ti.com/product/LM35">https://www.ti.com/product/LM35</a>
           <div>
-            <img src="https://www.ti.com/content/dam/tide/images/diagram-types/product-images/LM35.jpg" alt="LM35">
+            <img src="Thing_4.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -169,7 +169,7 @@
           <span class="muted">Analog Devices page:</span>
           <a href="https://www.analog.com/en/products/tmp36.html">https://www.analog.com/en/products/tmp36.html</a>
           <div>
-            <img src="https://www.analog.com/-/media/analog/en/products/landing-pages/t/tmp36/tmp36-product-image.png" alt="TMP36">
+            <img src="Thing_5.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -191,7 +191,7 @@
           <span class="muted">Microchip page:</span>
           <a href="https://www.microchip.com/en-us/product/MCP9700">https://www.microchip.com/en-us/product/MCP9700</a>
           <div>
-            <img src="https://www.microchip.com/en-us/images/product-selector/psd-sensors-mcp9700.png" alt="MCP9700">
+            <img src="Thing_6.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -229,7 +229,7 @@
           <span class="muted">Microchip page:</span>
           <a href="https://www.microchip.com/en-us/product/MCP6002">https://www.microchip.com/en-us/product/MCP6002</a>
           <div>
-            <img src="https://www.microchip.com/en-us/images/product-selector/psd-opamps-mcp6002.png" alt="MCP6002">
+            <img src="Thing_7.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -251,7 +251,7 @@
           <span class="muted">TI page:</span>
           <a href="https://www.ti.com/product/TLV2462">https://www.ti.com/product/TLV2462</a>
           <div>
-            <img src="https://www.ti.com/diagrams/tlv2462-ic-package.jpg" alt="TLV2462">
+            <img src="Thing_8.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -273,7 +273,7 @@
           <span class="muted">TI page:</span>
           <a href="https://www.ti.com/product/LM358">https://www.ti.com/product/LM358</a>
           <div>
-            <img src="https://www.ti.com/content/dam/tide/images/diagram-types/product-images/LM358.jpg" alt="LM358">
+            <img src="Thing_9.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -311,7 +311,7 @@
           <span class="muted">Category page:</span>
           <a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">https://www.digikey.com/en/products/filter/led-indication-discrete/105</a>
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/5mm_Red_LED.jpg" alt="5mm Red LED">
+            <img src="Thing_10.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -333,7 +333,7 @@
           <span class="muted">Category page:</span>
           <a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">https://www.digikey.com/en/products/filter/led-indication-discrete/105</a>
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/SMD_LED_0805.jpg" alt="0805 SMD LED">
+            <img src="Thing_11.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -355,7 +355,7 @@
           <span class="muted">Category page:</span>
           <a href="https://www.mouser.com/c/optoelectronics/leds/standard-leds-single-color/">https://www.mouser.com/c/optoelectronics/leds/standard-leds-single-color/</a>
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/SMD_LED_1206.jpg" alt="1206 SMD LED">
+            <img src="Thing_13.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -393,7 +393,7 @@
           <span class="muted">TI page:</span>
           <a href="https://www.ti.com/product/DRV8871">https://www.ti.com/product/DRV8871</a>
           <div>
-            <img src="https://www.ti.com/content/dam/tide/en/images/parts/drv8871.jpg" alt="DRV8871">
+            <img src="Thing_14.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -415,7 +415,7 @@
           <span class="muted">SparkFun page:</span>
           <a href="https://www.sparkfun.com/sparkfun-motor-driver-dual-tb6612fng-1a.html">https://www.sparkfun.com/sparkfun-motor-driver-dual-tb6612fng-1a.html</a>
           <div>
-            <img src="https://cdn.sparkfun.com//assets/parts/9/6/5/3/14450-00.jpg" alt="TB6612FNG">
+            <img src="Thing_15.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
@@ -437,7 +437,7 @@
           <span class="muted">ST page:</span>
           <a href="https://www.st.com/en/motor-drivers/l298.html">https://www.st.com/en/motor-drivers/l298.html</a>
           <div>
-            <img src="https://static.gct.co/media/l298n-motor-driver-module.jpg" alt="L298N Module">
+            <img src="Thing_16.png" alt="5V Buck Module">
           </div>
         </td>
         <td>
