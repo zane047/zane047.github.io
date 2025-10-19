@@ -1,5 +1,5 @@
 ---
-title: Second Page
+title: Power Budget
 ---
 
-Things to discuss
+
