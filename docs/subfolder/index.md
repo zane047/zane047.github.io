@@ -25,7 +25,7 @@ title: Custom Schematic
         <!-- <img src="./Custom_S.pnj" alt="Example KiCad schematic" /> -->
       </div>
       <p class="caption">
-        <strong>Figure ##:</strong> Showing an example schematic.
+        <strong>Figure #1:</strong> Showing an example schematic.
       </p>
     </section>
 
@@ -33,7 +33,7 @@ title: Custom Schematic
       <h2>Resources</h2>
       <p>
         The schematic as a PDF download is available
-        <a href="./assets/schematic.pdf" target="_blank" rel="noopener">here</a>,
+        <a href="Custom_Schematic.pdf" target="_blank" rel="noopener">here</a>,
         and the Zip folder of the project
         <a href="./assets/project.zip" target="_blank" rel="noopener">here</a>.
       </p>
