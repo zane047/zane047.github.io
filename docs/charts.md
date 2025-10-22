@@ -2,14 +2,15 @@
 title: Custom Schematic
 ---
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Schematic Overview</title>
+</head>
 
+<body>
   <main class="container">
     <h1>Overview</h1>
     <p class="lead">
@@ -18,16 +19,18 @@ title: Custom Schematic
 
     <section class="figure">
       <div class="frame">
-        <!-- Replace the src with your image path -->
-        <img src="![](Custom_S.png)" alt="Example KiCad schematic" />
+        <!-- ✅ Fixed image reference -->
+        <img src="./Custom_S.png" alt="Example KiCad schematic" />
+        <!-- If your file extension is actually .pnj, use: -->
+        <!-- <img src="./Custom_S.pnj" alt="Example KiCad schematic" /> -->
       </div>
       <p class="caption">
-        <strong>Figure ##:</strong> Showing a example schematic.
+        <strong>Figure ##:</strong> Showing an example schematic.
       </p>
     </section>
 
     <section class="resources">
-      <h2>Resouces</h2> <!-- kept the original misspelling to match the screenshot -->
+      <h2>Resources</h2>
       <p>
         The schematic as a PDF download is available
         <a href="./assets/schematic.pdf" target="_blank" rel="noopener">here</a>,
@@ -35,9 +38,6 @@ title: Custom Schematic
         <a href="./assets/project.zip" target="_blank" rel="noopener">here</a>.
       </p>
     </section>
-
-
-    </footer>
   </main>
 </body>
 </html>
