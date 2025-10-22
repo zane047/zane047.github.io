@@ -19,7 +19,7 @@ title: Custom Schematic
     <section class="figure">
       <div class="frame">
         <!-- Replace the src with your image path -->
-        <img src="Custom_S.png" alt="Example KiCad schematic" />
+        <img src="![](Custom_S.png)" alt="Example KiCad schematic" />
       </div>
       <p class="caption">
         <strong>Figure ##:</strong> Showing a example schematic.
