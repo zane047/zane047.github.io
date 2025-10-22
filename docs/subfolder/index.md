@@ -4,7 +4,8 @@ title: Custom Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic shows the complete design for my Smart Curtain subsystem. It includes the Curiosity Nano microcontroller board, LM7805 power supply, a temperature sensor (with op-amp signal conditioning), and a debug LED. The schematic demonstrates all power, signal, and control connections needed for reliable operation and integration with the team system.
+
 
 
 ![schematic](Custom_S.png)
