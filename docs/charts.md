@@ -36,12 +36,7 @@ title: Custom Schematic
       </p>
     </section>
 
-    <footer>
-      <p>
-        Built for GitHub Pages. Edit <span class="mono">index.html</span> in your repo
-        to update links and text. Optional MathJax is enabled for equations like
-        $V_{out} = 10\\,\\mathrm{mV}/^{\\circ}\\!\\mathrm{C} \\times T$.
-      </p>
+
     </footer>
   </main>
 </body>
