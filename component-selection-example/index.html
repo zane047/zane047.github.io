@@ -1087,91 +1087,30 @@
   <p class="choice"><strong>Choice:</strong> Option 2 — 0805 SMD Red LED with 330 Ω resistor<br>
   <strong>Rationale:</strong> Compact, assembly-friendly, and bright enough at ~9 mA (5 V → 330 Ω with ~2.0 V LED Vf).</p>
 
-  <!-- ===================== Button (User Interface Subsystem) ===================== -->
-  <h2>Button (User Interface Subsystem)</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Solution</th>
-        <th>Pros</th>
-        <th>Cons</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="solution">
-          <strong>Option 1 — PTS645SL43-2 LFS Tactile Switch</strong><br>
-          Basic push button, low cost, easy to integrate<br>
-          <span class="muted">Price: $0.24/each</span><br>
-          <span class="muted">Product page:</span>
-          <a href="https://www.digikey.com/en/products/detail/c-k/PTS645SL43-2-LFS/1146755">https://www.digikey.com/en/products/detail/c-k/PTS645SL43-2-LFS/1146755</a><br>
-          <span class="muted">Datasheet:</span>
-          <a href="https://www.ckswitches.com/media/1471/pts645.pdf">https://www.ckswitches.com/media/1471/pts645.pdf</a>
-          <div>
-            <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="PTS645SL43-2LFS.jpeg" data-desc-position="bottom"><img src="PTS645SL43-2LFS.jpeg" alt="PTS645SL43-2 LFS Tactile Switch"></a>
-          </div>
-        </td>
-        <td>
-          • Very low cost<br>
-          • Easy to use
-        </td>
-        <td>
-          • Short lifespan<br>
-          • Less tactile feedback
-        </td>
-      </tr>
+  ## 5. Button (**User Interface Subsystem**)
 
-      <tr>
-        <td class="solution">
-          <strong>Option 2 — Omron B3F Series Tactile Switch</strong><br>
-          High-quality tactile push button, reliable, long life<br>
-          <span class="muted">Price: $0.24/each</span><br>
-          <span class="muted">Product page:</span>
-          <a href="https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150">https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150</a><br>
-          <span class="muted">Datasheet:</span>
-          <a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf">https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf</a>
-          <div>
-            <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="B3F.jpeg" data-desc-position="bottom"><img src="B3F.jpeg" alt="Omron B3F Series Tactile Switch"></a>
-          </div>
-        </td>
-        <td>
-          • Long lifespan (~1M presses)<br>
-          • Reliable actuation<br>
-          • Consistent tactile feel
-        </td>
-        <td>
-          • Slightly higher cost<br>
-          • Requires careful soldering
-        </td>
-      </tr>
+### Option 1
 
-      <tr>
-        <td class="solution">
-          <strong>Option 3 — Adafruit Mini Tactile Switch</strong><br>
-          Compact, low profile, low cost<br>
-          <span class="muted">Price: $0.75/each</span><br>
-          <span class="muted">Product page:</span>
-          <a href="https://www.adafruit.com/product/367">https://www.adafruit.com/product/367</a><br>
-          <span class="muted">Datasheet:</span>
-          <a href="https://cdn-shop.adafruit.com/datasheets/B3F-1000-Omron.pdf">https://cdn-shop.adafruit.com/datasheets/B3F-1000-Omron.pdf</a>
-          <div>
-            <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Adafruit_mini_tactile.jpg" data-desc-position="bottom"><img src="Adafruit_mini_tactile.jpg" alt="Adafruit Mini Tactile Switch"></a>
-          </div>
-        </td>
-        <td>
-          • Compact<br>
-          • Low cost<br>
-          • Easy to use
-        </td>
-        <td>
-          • Shorter lifespan<br>
-          • Less tactile feel
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <p class="choice"><strong>Choice:</strong> Option 2 — Omron B3F Series Tactile Switch<br>
-  <strong>Rationale:</strong> The Omron B3F is durable (~1M presses) and provides reliable tactile feedback, making it suitable for frequent user interaction. Cheaper alternatives lack lifespan and consistent feel, which could degrade user experience over time.</p>
+| Solution | Pros | Cons |
+|----------|------|------|
+| **PTS645SL43-2 LFS Tactile Switch**<br>![PTS645SL43-2LFS](PTS645SL43-2LFS.jpeg)<br>Basic push button, low cost, easy to integrate<br>Price: $0.24/each<br>[Product Page](https://www.digikey.com/en/products/detail/c-k/PTS645SL43-2-LFS/1146755)<br>[Datasheet](https://www.ckswitches.com/media/1471/pts645.pdf) | - Very low cost<br>- Easy to use | - Short lifespan<br>- Less tactile feedback |
+
+### Option 2
+
+| Solution | Pros | Cons |
+|----------|------|------|
+| **Omron B3F Series Tactile Switch**<br>![B3F](B3F.jpeg)<br>High-quality tactile push button, reliable, long life<br>Price: $0.24/each<br>[Product Page](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150)<br>[Datasheet](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf) | - Long lifespan (~1M presses)<br>- Reliable actuation<br>- Consistent tactile feel | - Slightly higher cost<br>- Requires careful soldering |
+
+### Option 3
+
+| Solution | Pros | Cons |
+|----------|------|------|
+| **Adafruit Mini Tactile Switch**<br>![Adafruit Mini Tactile Switch](Adafruit_mini_tactile.jpg)<br>Compact, low profile, low cost<br>Price: $0.75/each<br>[Product Page](https://www.adafruit.com/product/367)<br>[Datasheet](https://cdn-shop.adafruit.com/datasheets/B3F-1000-Omron.pdf) | - Compact<br>- Low cost<br>- Easy to use | - Shorter lifespan<br>- Less tactile feel |
+
+**Choice:** Option 2: Omron B3F Series Tactile Switch  
+**Rationale:** The Omron B3F is durable (~1M presses) and provides reliable tactile feedback, making it suitable for frequent user interaction. Cheaper alternatives lack lifespan and consistent feel, which could degrade user experience over time.  
+
+---
 
 
 
