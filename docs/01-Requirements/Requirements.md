@@ -3,7 +3,8 @@ title: Module's Requirements
 ---
 
 ## Module Requirements
-The following sections document the requirements that the this module need to fulfills to .....
+This outlines the essential components needed for power regulation, processing, sensing, and data transmission, 
+ensuring the module can accurately measure environmental temperature and communicate that data to other systems.
 
 | **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
