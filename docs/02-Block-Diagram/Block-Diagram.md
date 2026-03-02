@@ -7,8 +7,8 @@ tags:
 
 
 ## Overview
-* This subsystem represents **Zane Brauer's** portion of **Team 307’s** project.  
-It focuses on detecting the temperature using a temperature sensor through the **Microchip PIC18F47K42 microcontroller.**
+* This subsystem represents **Zane Brauer's** portion of **Team 307’s** project.
+* The temperature sensor focuses on detecting the temperature from **I2C** serial connection through the **Microchip PIC18F47K42 microcontroller.**
 
 # System Description
 
