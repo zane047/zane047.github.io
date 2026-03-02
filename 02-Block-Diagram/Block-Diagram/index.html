@@ -26,7 +26,7 @@
 
     
       
-        <title>Zane's Block Diagram - EGR314 Zane Brauer Datasheet.</title>
+        <title>Individal Block Diagram - Zane’s Subsystem - EGR314 Zane Brauer Datasheet.</title>
       
     
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#system-description" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Zane's Block Diagram
+              Individal Block Diagram - Zane’s Subsystem
             
           </span>
         </div>
@@ -512,62 +512,18 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Zane's Block Diagram
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Zane's Block Diagram
+    Individal Block Diagram - Zane’s Subsystem
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#individual-block-diagram" class="md-nav__link">
-    <span class="md-ellipsis">
-      Individual Block Diagram
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -792,32 +748,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#individual-block-diagram" class="md-nav__link">
-    <span class="md-ellipsis">
-      Individual Block Diagram
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -840,11 +772,16 @@
   
 
 
-  <h1>Zane's Block Diagram</h1>
-
+<h1 id="system-description">System Description</h1>
+<p>This system has a <strong>Temperature sensor</strong> that recieves data from <strong>Microchip PIC18F47K42 microcontroller</strong> . The <strong>Microchip PIC18F47K42 microcontroller</strong> is the central controller of this subsystem, managing digital and serial signals. The other points in the diagram include the <strong>actuator (LED output)</strong> of the <strong>system</strong>, <strong>communication interfaces</strong>, and <strong>team connector connections</strong> for signal and power sharing. In total, the diagram presents <strong>power levels, shared ground, signal flow, and module integration</strong> in the system at hand.</p>
+<hr>
+<h1 id="power-configuration">Power Configuration</h1>
+<p>The design uses the voltage level of: <strong>5V, 1.5A regulated supply</strong> for logic and sensors.  </p>
+<hr>
 <h2 id="overview">Overview</h2>
 <ul>
-<li>Overall, this block diagram shows the system and how the components are connected. It names the <strong>power source</strong> (DC barrel jack), the <strong>5V voltage regulator</strong>, and the distribution of regulated power throughout the system. The <strong>Microchip PIC18F47K42 microcontroller</strong> is the central controller of this subsystem, managing digital and serial signals. The other points in the diagram include the <strong>actuator (LED output)</strong> of the <strong>system</strong>, <strong>communication interfaces</strong>, and <strong>team connector connections</strong> for signal and power sharing. In total, the diagram presents <strong>power levels, shared ground, signal flow, and module integration</strong> in the system at hand.</li>
+<li>This subsystem represents <strong>Zane Brauer's</strong> portion of <strong>Team 307’s</strong> project.<br>
+It focuses on detecting the temperature using a temperature sensor through the <strong>Microchip PIC18F47K42 microcontroller.</strong></li>
 </ul>
 <h2 id="individual-block-diagram">Individual Block Diagram</h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../314_ind_blo.png" data-desc-position="bottom"><img alt="Indivial Block diagram " src="../314_ind_blo.png"></a></p>
