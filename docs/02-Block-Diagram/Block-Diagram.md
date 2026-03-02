@@ -21,4 +21,4 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 ## Individual Block Diagram 
 
 
-![Indivial Block diagram ](314_ind_block.png)
+![Indivial Block diagram ](314_ind_blo.png)
