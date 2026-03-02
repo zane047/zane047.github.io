@@ -31,4 +31,4 @@ It focuses on detecting the temperature using a temperature sensor through the *
 ## Individual Block Diagram 
 
 
-![Indivial Block diagram ](IND_blow_314.png)
+![Indivial Block diagram ](ind_bluh.png)
