@@ -10,7 +10,7 @@ tags:
 
 # System Description
 
-This system has a **Temperature sensor** that recieves data from **Microchip PIC18F47K42 microcontroller** . The **Microchip PIC18F47K42 microcontroller** is the central controller of this subsystem, managing digital and serial signals. The other points in the diagram include the **actuator (LED output)** of the **system**, **communication interfaces**, and **team connector connections** for signal and power sharing. In total, the diagram presents **power levels, shared ground, signal flow, and module integration** in the system at hand.
+This system has a **Temperature sensor** that recieves data from **Microchip PIC18F47K42 microcontroller** . The **Microchip PIC18F47K42 microcontroller** is the central controller of this subsystem, managing **serial signal I2C**. The other points in the diagram include the **actuator (LED output)** of the **system**, **communication interfaces**, and **team connector connections** for signal and power sharing. In total, the diagram presents **power levels, shared ground, signal flow, and module integration** in the system at hand.
 
 ---
 
