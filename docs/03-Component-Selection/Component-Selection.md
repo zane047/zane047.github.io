@@ -1,4 +1,4 @@
-# Component Selection — Team 206: TechMinds
+# Component Selection — Team 307
 
 ---
 
