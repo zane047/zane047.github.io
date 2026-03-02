@@ -6,7 +6,9 @@ tags:
 ---
 
 
-
+## Overview
+* This subsystem represents **Zane Brauer's** portion of **Team 307’s** project.  
+It focuses on detecting the temperature using a temperature sensor through the **Microchip PIC18F47K42 microcontroller.**
 
 # System Description
 
@@ -20,10 +22,6 @@ The design uses the voltage level of: **5V, 1.5A regulated supply** for logic an
 
 ---
 
-
-## Overview
-* This subsystem represents **Zane Brauer's** portion of **Team 307’s** project.  
-It focuses on detecting the temperature using a temperature sensor through the **Microchip PIC18F47K42 microcontroller.**
 
 
 
