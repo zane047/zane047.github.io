@@ -29,4 +29,4 @@ The design uses the voltage level of: **5V, 1.5A regulated supply** for logic an
 ## Individual Block Diagram 
 
 
-![Indivial Block diagram ](ind_bluh.png)
+![Indivial Block diagram ](update_bd.png)
