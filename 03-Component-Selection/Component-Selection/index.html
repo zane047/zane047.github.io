@@ -1020,12 +1020,12 @@
 <td>• Inefficient from 12 V → 5 V<br>• Needs heatsink above ~300 mA<br>• Dropout ≈ 2 V limits low-Vin</td>
 </tr>
 <tr>
-<td><strong>Option 2 — 5 V Buck Module (e.g., MP1584 / LM2596)</strong><br>High-efficiency step-down DC/DC<br>Price: ~<span class="arithmatex">\(2–\)</span>6<br><a href="https://www.digikey.com/en/products/filter/dc-dc-converters/882">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_2.png" data-desc-position="bottom"><img alt="Buck Module" src="Thing_2.png"></a></td>
+<td><strong>Option 2 — 5 V Buck Module (e.g., MP1584 / LM2596)</strong><br>High-efficiency step-down DC/DC<br>Price: ~<span class="arithmatex">\(2–\)</span>6<br><a href="https://www.digikey.com/en/products/filter/dc-dc-converters/882">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_2.png" data-desc-position="bottom"><img alt="Buck Module" src="../Thing_2.png"></a></td>
 <td>• High efficiency → runs cool from 12 V<br>• Handles higher load current<br>• Wide input range and adjustable output</td>
 <td>• Switching ripple/noise requires filtering<br>• PCB layout and EMI critical<br>• More components; taller height</td>
 </tr>
 <tr>
-<td><strong>Option 3 — MCP1825S-5002 (5 V LDO)</strong><br>1 A LDO, lower dropout than 7805<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP1825S-5002E-AB/1505941">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_3.png" data-desc-position="bottom"><img alt="MCP1825S" src="Thing_3.png"></a></td>
+<td><strong>Option 3 — MCP1825S-5002 (5 V LDO)</strong><br>1 A LDO, lower dropout than 7805<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP1825S-5002E-AB/1505941">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_3.png" data-desc-position="bottom"><img alt="MCP1825S" src="../Thing_3.png"></a></td>
 <td>• Lower dropout than 7805<br>• Quieter output than buck<br>• Simple BOM</td>
 <td>• Still linear → wastes heat<br>• 1 A limit<br>• Thermal design needed above a few hundred mA</td>
 </tr>
@@ -1045,17 +1045,17 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Option 1 — LM35 (analog 10 mV/°C)</strong><br>TO-92 or SOIC<br>Price: ~<span class="arithmatex">\(1–\)</span>3<br><a href="https://www.ti.com/product/LM35">TI Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_4.png" data-desc-position="bottom"><img alt="LM35" src="Thing_4.png"></a></td>
+<td><strong>Option 1 — LM35 (analog 10 mV/°C)</strong><br>TO-92 or SOIC<br>Price: ~<span class="arithmatex">\(1–\)</span>3<br><a href="https://www.ti.com/product/LM35">TI Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_4.png" data-desc-position="bottom"><img alt="LM35" src="../Thing_4.png"></a></td>
 <td>• Linear 10 mV/°C scaling<br>• Low current; minimal external parts<br>• Well-documented</td>
 <td>• Analog output susceptible to noise<br>• Needs buffering for long leads<br>• Accuracy modest without calibration</td>
 </tr>
 <tr>
-<td><strong>Option 2 — TMP36 (analog with offset)</strong><br>2.7–5.5 V supply (750 mV @ 25 °C)<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.analog.com/en/products/tmp36.html">Analog Devices Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_5.png" data-desc-position="bottom"><img alt="TMP36" src="Thing_5.png"></a></td>
+<td><strong>Option 2 — TMP36 (analog with offset)</strong><br>2.7–5.5 V supply (750 mV @ 25 °C)<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.analog.com/en/products/tmp36.html">Analog Devices Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_5.png" data-desc-position="bottom"><img alt="TMP36" src="../Thing_5.png"></a></td>
 <td>• Works from 5 V rail<br>• Low power and easy ADC interface<br>• Wide temp range (−40 to 125 °C)</td>
 <td>• Accuracy ±2 °C<br>• Offset must be subtracted in firmware<br>• Analog output needs filtering</td>
 </tr>
 <tr>
-<td><strong>Option 3 — MCP9700 (analog)</strong><br>Slope 10 mV/°C with 500 mV offset<br>Price: &lt; $1<br><a href="https://www.microchip.com/en-us/product/MCP9700">Microchip Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_6.png" data-desc-position="bottom"><img alt="MCP9700" src="Thing_6.png"></a></td>
+<td><strong>Option 3 — MCP9700 (analog)</strong><br>Slope 10 mV/°C with 500 mV offset<br>Price: &lt; $1<br><a href="https://www.microchip.com/en-us/product/MCP9700">Microchip Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_6.png" data-desc-position="bottom"><img alt="MCP9700" src="../Thing_6.png"></a></td>
 <td>• Low cost<br>• Operates at 5 V<br>• Compatible with PIC ADC</td>
 <td>• Offset adds math/error<br>• Accuracy ±2 °C typical<br>• Still analog → noise/EMI sensitive</td>
 </tr>
@@ -1075,17 +1075,17 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Option 1 — MCP6002 (dual, rail-to-rail I/O)</strong><br>1.8–5.5 V, 1 MHz GBW<br>Price: ~<span class="arithmatex">\(0.50–\)</span>1.50<br><a href="https://www.microchip.com/en-us/product/MCP6002">Microchip Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_7.png" data-desc-position="bottom"><img alt="MCP6002" src="Thing_7.png"></a></td>
+<td><strong>Option 1 — MCP6002 (dual, rail-to-rail I/O)</strong><br>1.8–5.5 V, 1 MHz GBW<br>Price: ~<span class="arithmatex">\(0.50–\)</span>1.50<br><a href="https://www.microchip.com/en-us/product/MCP6002">Microchip Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_7.png" data-desc-position="bottom"><img alt="MCP6002" src="../Thing_7.png"></a></td>
 <td>• Rail-to-rail I/O at 5 V<br>• Low quiescent current<br>• Unity-gain stable</td>
 <td>• Limited bandwidth (1 MHz)<br>• Modest slew rate<br>• Low output drive</td>
 </tr>
 <tr>
-<td><strong>Option 2 — TLV2462 (dual, rail-to-rail I/O)</strong><br>2.7–6 V, 6.4 MHz GBW<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.ti.com/product/TLV2462">TI Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_8.png" data-desc-position="bottom"><img alt="TLV2462" src="Thing_8.png"></a></td>
+<td><strong>Option 2 — TLV2462 (dual, rail-to-rail I/O)</strong><br>2.7–6 V, 6.4 MHz GBW<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.ti.com/product/TLV2462">TI Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_8.png" data-desc-position="bottom"><img alt="TLV2462" src="../Thing_8.png"></a></td>
 <td>• Higher bandwidth and slew rate<br>• Rail-to-rail I/O on 5 V<br>• Good dynamic range</td>
 <td>• Higher quiescent current<br>• More layout-sensitive<br>• Slightly higher cost</td>
 </tr>
 <tr>
-<td><strong>Option 3 — LM358 (dual, non-R-R)</strong><br>3–32 V classic op-amp<br>Price: ~<span class="arithmatex">\(0.25–\)</span>0.60<br><a href="https://www.ti.com/product/LM358">TI Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_9.png" data-desc-position="bottom"><img alt="LM358" src="Thing_9.png"></a></td>
+<td><strong>Option 3 — LM358 (dual, non-R-R)</strong><br>3–32 V classic op-amp<br>Price: ~<span class="arithmatex">\(0.25–\)</span>0.60<br><a href="https://www.ti.com/product/LM358">TI Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_9.png" data-desc-position="bottom"><img alt="LM358" src="../Thing_9.png"></a></td>
 <td>• Low cost and common<br>• Wide supply range<br>• Available everywhere</td>
 <td>• Input/output don’t reach rails<br>• Lower bandwidth and slew<br>• Needs headroom</td>
 </tr>
@@ -1105,17 +1105,17 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Option 1 — 5 mm Red LED (THT)</strong><br>Vf ≈ 2.0 V @ 20 mA<br>Price: &lt; $0.10<br><a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">Digikey Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_10.png" data-desc-position="bottom"><img alt="5mm LED" src="Thing_10.png"></a></td>
+<td><strong>Option 1 — 5 mm Red LED (THT)</strong><br>Vf ≈ 2.0 V @ 20 mA<br>Price: &lt; $0.10<br><a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">Digikey Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_10.png" data-desc-position="bottom"><img alt="5mm LED" src="../Thing_10.png"></a></td>
 <td>• Bright and easy to see<br>• Breadboard-friendly<br>• Durable leads</td>
 <td>• Large footprint<br>• Requires holes (through-hole)<br>• Protrudes above PCB</td>
 </tr>
 <tr>
-<td><strong>Option 2 — 0805 SMD Red LED</strong><br>Vf ≈ 2.0 V typical<br>Price: &lt; $0.10<br><a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">Digikey Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_11.png" data-desc-position="bottom"><img alt="0805 LED" src="Thing_11.png"></a></td>
+<td><strong>Option 2 — 0805 SMD Red LED</strong><br>Vf ≈ 2.0 V typical<br>Price: &lt; $0.10<br><a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">Digikey Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_11.png" data-desc-position="bottom"><img alt="0805 LED" src="../Thing_11.png"></a></td>
 <td>• Compact for tight PCBs<br>• Suited for reflow assembly<br>• Low parasitics</td>
 <td>• Tricky to hand-solder<br>• Less visible off-axis<br>• Needs silkscreen polarity</td>
 </tr>
 <tr>
-<td><strong>Option 3 — 1206 SMD Red LED</strong><br>Vf ≈ 2.0 V typical<br>Price: &lt; $0.10<br><a href="https://www.mouser.com/c/optoelectronics/leds/standard-leds-single-color/">Mouser Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_13.png" data-desc-position="bottom"><img alt="1206 LED" src="Thing_13.png"></a></td>
+<td><strong>Option 3 — 1206 SMD Red LED</strong><br>Vf ≈ 2.0 V typical<br>Price: &lt; $0.10<br><a href="https://www.mouser.com/c/optoelectronics/leds/standard-leds-single-color/">Mouser Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_13.png" data-desc-position="bottom"><img alt="1206 LED" src="../Thing_13.png"></a></td>
 <td>• Bigger pads (easier hand-solder)<br>• Still compact<br>• Good visibility</td>
 <td>• Needs resistor &amp; stencil<br>• Slightly larger area<br>• Taller profile</td>
 </tr>
@@ -1223,17 +1223,17 @@
 <td>• Inefficient from 12 V → 5 V<br>• Needs heatsink above ~300 mA<br>• Dropout ≈ 2 V limits low-Vin</td>
 </tr>
 <tr>
-<td><strong>TMP36 (analog with offset)</strong><br>2.7–5.5 V supply (750 mV @ 25 °C)<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.analog.com/en/products/tmp36.html">Analog Devices Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_5.png" data-desc-position="bottom"><img alt="TMP36" src="Thing_5.png"></a></td>
+<td><strong>TMP36 (analog with offset)</strong><br>2.7–5.5 V supply (750 mV @ 25 °C)<br>Price: ~<span class="arithmatex">\(1–\)</span>2<br><a href="https://www.analog.com/en/products/tmp36.html">Analog Devices Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_5.png" data-desc-position="bottom"><img alt="TMP36" src="../Thing_5.png"></a></td>
 <td>• Works from 5 V rail<br>• Low power and easy ADC interface<br>• Wide temp range (−40 to 125 °C)</td>
 <td>• Accuracy ±2 °C<br>• Offset must be subtracted in firmware<br>• Analog output needs filtering</td>
 </tr>
 <tr>
-<td><strong>MCP6002 (dual, rail-to-rail I/O)</strong><br>1.8–5.5 V, 1 MHz GBW<br>Price: ~<span class="arithmatex">\(0.50–\)</span>1.50<br><a href="https://www.microchip.com/en-us/product/MCP6002">Microchip Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_7.png" data-desc-position="bottom"><img alt="MCP6002" src="Thing_7.png"></a></td>
+<td><strong>MCP6002 (dual, rail-to-rail I/O)</strong><br>1.8–5.5 V, 1 MHz GBW<br>Price: ~<span class="arithmatex">\(0.50–\)</span>1.50<br><a href="https://www.microchip.com/en-us/product/MCP6002">Microchip Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_7.png" data-desc-position="bottom"><img alt="MCP6002" src="../Thing_7.png"></a></td>
 <td>• Rail-to-rail I/O at 5 V<br>• Low quiescent current<br>• Unity-gain stable</td>
 <td>• Limited bandwidth (1 MHz)<br>• Modest slew rate<br>• Low output drive</td>
 </tr>
 <tr>
-<td><strong>5 mm Red LED (THT)</strong><br>Vf ≈ 2.0 V @ 20 mA<br>Price: &lt; $0.10<br><a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">Digikey Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Thing_10.png" data-desc-position="bottom"><img alt="5mm LED" src="Thing_10.png"></a></td>
+<td><strong>5 mm Red LED (THT)</strong><br>Vf ≈ 2.0 V @ 20 mA<br>Price: &lt; $0.10<br><a href="https://www.digikey.com/en/products/filter/led-indication-discrete/105">Digikey Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_10.png" data-desc-position="bottom"><img alt="5mm LED" src="../Thing_10.png"></a></td>
 <td>• Bright and easy to see<br>• Breadboard-friendly<br>• Durable leads</td>
 <td>• Large footprint<br>• Requires holes (through-hole)<br>• Protrudes above PCB</td>
 </tr>
