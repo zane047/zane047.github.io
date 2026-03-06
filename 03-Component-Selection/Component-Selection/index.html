@@ -1045,9 +1045,9 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Option 1 — LM35 (analog 10 mV/°C)</strong> <br>TO-92 or SOIC<br>Price: ~<span class="arithmatex">\(1–\)</span>3<br><a href="https://www.ti.com/product/LM35">TI Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_4.png" data-desc-position="bottom"><img alt="LM35" src="../Thing_4.png"></a></td>
-<td>• Linear 10 mV/°C scaling<br>• Low current; minimal external parts<br>• Well-documented</td>
-<td>• Analog output susceptible to noise<br>• Needs buffering for long leads<br>• Accuracy modest without calibration</td>
+<td><strong>Option 1 — LM20BIM7X/NOPB (analog, SC-70-5 SMT)</strong> <br>TO-92 or SOIC<br>Price: ~$0.81<br><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM20BIM7X-NOPB/366749?msockid=2b2475af6c1d6d1102ad67846d8e6cef">TI Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_4.png" data-desc-position="bottom"><img alt="LM35" src="../Thing_4.png"></a></td>
+<td>• Better accuracy than many basic analog sensors, about ±1.5°C typical<br>• Analog output works well with a PIC ADC<br>• Surface-mount SC-70-5 package</td>
+<td>• Still an analog sensor, so noise can affect readings<br>• Output scaling is less straightforward than a simple 10 mV/°C sensor, about 11.77 mV/°C<br>• Small package can be harder to hand-solder</td>
 </tr>
 <tr>
 <td><strong>Option 2 — TMP1075DGKT</strong> <br>2.7–5.5 V supply (750 mV @ 25 °C)<br>Price: ~$1.03<br><a href="https://www.digikey.com/en/products/detail/texas-instruments/TMP1075DGKT/9597135">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../T_sense.png" data-desc-position="bottom"><img alt="TMP36" src="../T_sense.png"></a></td>
@@ -1055,9 +1055,9 @@
 <td>•Limited measurement resolution compared to newer sensors<br>• Requires microcontroller communication<br>• Not ideal for extremely fast temperature changes</td>
 </tr>
 <tr>
-<td><strong>Option 3 — MCP9700 (analog)</strong> <br>Slope 10 mV/°C with 500 mV offset<br>Price: &lt; $1<br><a href="https://www.microchip.com/en-us/product/MCP9700">Microchip Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_6.png" data-desc-position="bottom"><img alt="MCP9700" src="../Thing_6.png"></a></td>
-<td>• Low cost<br>• Operates at 5 V<br>• Compatible with PIC ADC</td>
-<td>• Offset adds math/error<br>• Accuracy ±2 °C typical<br>• Still analog → noise/EMI sensitive</td>
+<td><strong>Option 3 — MCP9700AT-E/TT</strong> <br>Slope 10 mV/°C with 500 mV offset<br>Price: &lt; $0.48<br><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP9700AT-E-TT/1228267?msockid=2b2475af6c1d6d1102ad67846d8e6cef">Product Page</a><br><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Thing_6.png" data-desc-position="bottom"><img alt="MCP9700" src="../Thing_6.png"></a></td>
+<td>• Simple 10 mV/°C analog output<br>• Low cost and easy to interface with a microcontroller ADC<br>• True surface-mount SOT-23-3 package</td>
+<td>• Requires ADC conversion and software scaling in the microcontrolle<br>•Lower accuracy than some digital temperature sensorsl<br>• Analog output is still susceptible to noise/EMI</td>
 </tr>
 </tbody>
 </table>
