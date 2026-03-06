@@ -50,6 +50,7 @@
 | **Option 3 — 1206 SMD Red LED**<br>Vf ≈ 2.0 V typical<br>Price: < $0.10<br>[Mouser Page](https://www.mouser.com/c/optoelectronics/leds/standard-leds-single-color/)<br>![1206 LED](Thing_13.png) | • Bigger pads (easier hand-solder)<br>• Still compact<br>• Good visibility | • Needs resistor & stencil<br>• Slightly larger area<br>• Taller profile |
  
 **Choice:** Option 1 — 5 mm Red LED (THT) 
+
 **Rationale:** I chose to utilize a 5 mm through-hole (THT) red LED as it is bright and can be visible from different directions — which is good for your user experience for status indications or alerts. For a development or proof-of-concept board, visibility is often more critical than compactness, and THT LEDs can certainly serve as a practical aid for debugging, early prototype, or demonstration builds. The through-hole form factor also makes soldering and rework for prototypes or low-volume builds easier, and the components can be replaced and/or adjusted by hand if they need to be replaced or modified.
 
 ---
@@ -63,6 +64,7 @@
 | **Option 3 — Adafruit Mini Tactile Switch**<br>Compact, low profile, low cost<br>Price: $0.75/each<br>[Product Page](https://www.adafruit.com/product/367)<br>[Datasheet](https://cdn-shop.adafruit.com/datasheets/B3F-1000-Omron.pdf)<br>![Adafruit Mini](Adafruit_mini_tactile%20(1).jpg) | • Compact<br>• Low cost<br>• Easy to use | • Shorter lifespan<br>• Less tactile feel |
 
 **Choice:** Option 2 — Omron B3F Series Tactile Switch  
+
 **Rationale:** We included the Omron B3F tactile switch due to a high-quality tactile feel, a reliable actuation, and a long lifetime (on the order of 1 million actuations). For a user interface — where human interaction, button press feel, and durability matter — these features show a substantial difference in usability and user satisfaction. A button that feels cheap or fails after a few uses can really degrade the perceived quality of the product. Though there are also cost-effective competitors like simple tactile switches or compact mini-switches, these alternatives can often cause poor tactile feedback, inconsistency in the actuation force applied, shorter lifespan, and potentially unreliable switching over time. Even for a project that might be heavily tested through manual testing, debugging, or user interaction (particularly in a lab or classroom), this can be a major drawback.
 
 
