@@ -80,3 +80,24 @@
 | **LTST-C150KRKT (SMD Red LED)** <br>Vf ≈ 2.0 V typical @ 20 mA<br>Price: < $0.10<br>[Digikey Page](https://www.digikey.com/en/products/detail/lite-on-inc/LTST-C150KRKT/386800)<br>![LTST-C150KRKT LED](ltst.png) | • Small surface-mount footprint (0603 package)<br>• Low forward voltage suitable for 5 V logic systems<br>• Good brightness for indicator applications | • Very small size makes hand-soldering difficult<br>• Less visible than larger LED packages<br>• Requires current-limiting resistor |
 | **TS02-66-50-BK-100-LCR-D Tactile Switch**<br>Compact surface-mount tactile push button<br>Price: ~$0.25/each<br>[Product Page](https://www.digikey.com/en/products/detail/c-k/TS02-66-50-BK-100-LCR-D/3755523)<br>[Datasheet](https://www.ckswitches.com/media/1471/pts645.pdf)<br>![TS02 Button](ts02.png)(https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3847/TS02-66-50-BK-100-LCR-D.jpg) | • Surface-mount design for PCB assembly<br>• Compact footprint for tight layouts<br>• Reliable tactile feedback | • Requires careful soldering due to small pads<br>• Lower actuation force may cause accidental presses<br>• Not ideal for very heavy mechanical use |
 ---
+## Power Budget
+---
+
+## Overview
+This Power Budget is an overview on just how much power should go into my circuit based off of each main conponent
+in my circuit.
+
+> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
+
+![budget1](206P1.png){style width:"350" height:"300;"}
+
+![budget2](206P2.png){style width:"350" height:"300;"}
+
+
+## Explanation And Conclusion
+
+The power budget also serves to estimate the total current demand of the system. In addition it checks that the 5 V regulator and the external 9 V power supply are capable of safely supporting all connected components. Thus, a Power Budget prepared from this process ensures that the power system is not undersized, which could lead to voltage drops, unstable operation, overheating, or permanent component damage. From the prepare Power Budget, I now get a better understanding of how much power needs go go into my circuit and what exact power supply I need to ensure success on building this improved cirrcuit.
+
+## Resouces
+
+The power budget as a PDF download is available [*here*](206PB.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetZB1.xlsx).
