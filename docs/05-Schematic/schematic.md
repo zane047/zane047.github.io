@@ -1,11 +1,11 @@
-
 ---
 title: Module Schematic
 ---
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support recieving digital data from other subsystems, stores the data as well as 
+computing temperature senssing data, and then sends both data's off to a new subsystem. This shows that the schematic is also designed to support digital communication between different subsystems as my subsystem both recieves and sends data.
 
 
 ![schematic](314schem.png){style width:"350" height:"300;"}
