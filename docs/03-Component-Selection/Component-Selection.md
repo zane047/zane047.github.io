@@ -87,7 +87,6 @@
 This Power Budget is an overview on just how much power should go into my circuit based off of each main conponent
 in my circuit.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
 ![budget1](pbe1.png){style width:"350" height:"300;"}
 
@@ -98,7 +97,7 @@ in my circuit.
 
 ## Explanation And Conclusion
 
-The power budget also serves to estimate the total current demand of the system. In addition it checks that the 5 V regulator and the external 9 V power supply are capable of safely supporting all connected components. Thus, a Power Budget prepared from this process ensures that the power system is not undersized, which could lead to voltage drops, unstable operation, overheating, or permanent component damage. From the prepare Power Budget, I now get a better understanding of how much power needs go go into my circuit and what exact power supply I need to ensure success on building this improved cirrcuit.
+The power budget also serves to estimate the total current demand of the system. The PIC18F47K42 microcontroller and TMP1075DGKT temperature sensor are powered from the +5V rail. The TPS560430X3FD +5V regulator can provide 1000 mA, leaving about 374.94 mA of remaining current capacity. The system is powered by the SMI24-24-V-P5 external power supply, which provides 24V and up to 4000 mA, ensuring sufficient power for the regulators and connected components. From the prepare Power Budget, I now get a better understanding of how much power needs go go into my circuit and what exact power supply I need to ensure success on building this improved cirrcuit.
 
 ## Resouces
 
