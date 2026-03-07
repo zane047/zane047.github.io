@@ -89,9 +89,9 @@ in my circuit.
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](206P1.png){style width:"350" height:"300;"}
+![budget1](peb1.jpg){style width:"350" height:"300;"}
 
-![budget2](206P2.png){style width:"350" height:"300;"}
+![budget2](peb2.jpg){style width:"350" height:"300;"}
 
 
 ## Explanation And Conclusion
