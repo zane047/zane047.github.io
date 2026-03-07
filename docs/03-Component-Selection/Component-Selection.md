@@ -93,6 +93,8 @@ in my circuit.
 
 ![budget2](pbe2.png){style width:"350" height:"300;"}
 
+![budget3](pbe3.png){style width:"350" height:"300;"}
+
 
 ## Explanation And Conclusion
 
