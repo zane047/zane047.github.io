@@ -102,4 +102,4 @@ The power budget also serves to estimate the total current demand of the system.
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](Zane_Power_Budget_314.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetZB1.xlsx).
+The power budget as a PDF download is available [*here*](Zane_Power_Budget_314.pdf), and a Microsoft Excel Sheet [*here*](Zane314_Power_Budget.xlsx).
