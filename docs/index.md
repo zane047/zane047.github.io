@@ -25,8 +25,10 @@ for<br>
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+* I will be bulding my own subsystem unit for this team project.
+
+* My subsystem will recieve data from one of my teamates subsystem which then my subsystem will store the data as well as computing temperature sensor values. After, I take the stored data as well as my value data and output the data to the OLED subsystem.
+
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
 
