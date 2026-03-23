@@ -4,7 +4,7 @@ title: PCB
 
 ## Overview
 
-This PCB is designed to support a value, PIC18(L)F4XK42 Microcontroller and a Temperature Sensor.
+This PCB is designed to support a value, PIC18(L)F4XK42 Microcontroller and the TMP1075DGK Temperature Sensor.
 
 
 ## PCB 3D-View
