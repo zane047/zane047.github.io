@@ -8,7 +8,7 @@ This schematic is design to support recieving digital data from other subsystems
 computing temperature senssing data, and then sends both data's off to a new subsystem. This shows that the schematic is also designed to support digital communication between different subsystems as my subsystem both recieves and sends data.
 
 
-![schematic](Up314_Schem.png){style width:"350" height:"300;"}
+![schematic](314ac.png){style width:"350" height:"300;"}
 **Figure ##:** Showing a example schematic.
 
 
