@@ -9,8 +9,8 @@ The Zane subsystem receives data from the JT subsystem, reads temperature data f
 **JT Subsystem → Zane Subsystem → Abriana OLED Subsystem**
 
 ### Zane Subsystem Responsibilities
-- Receive JT data
-- Store JT data
+- Receive JT subsystem data
+- Store JT subsystem data
 - Read temperature sensor data
 - Combine JT data and temperature data
 - Send combined data to Abriana
@@ -56,8 +56,6 @@ This message represents the local temperature data measured by the temperature s
 #### Description
 This message contains the current temperature measured by the local temperature sensor in degrees Celsius. The measured temperature is stored as an integer value and used in the outgoing display-data message.
 
-> **Note:** If the final team design requires decimal precision, this field may need to be changed to a larger type such as `int16_t` and scaled by a factor of 10.
-
 ---
 
 ## Messages Sent by Zane Subsystem
@@ -70,7 +68,7 @@ This is the main output message sent from the Zane subsystem to the Abriana OLED
 |------|---------------|-----------|-----------------|-----------|-----------|---------|
 | 1 | `message_type` | `uint8_t` | 1 | 3 | 3 | 3 |
 | 2 | `jt_data` | `uint8_t` | 1 | 0 | 255 | 1 |
-| 3 | `temperature_c` | `int8_t` | 1 | -40 | 125 | 26 |
+| 3 | `temperature_f` | `int8_t` | 1 | -40 | 125 | 26 |
 
 #### Description
 This message is sent from the Zane subsystem to the Abriana subsystem. It contains both the stored JT data and the most recent temperature reading. The Abriana subsystem uses this message to display both values on the OLED.
@@ -161,14 +159,18 @@ The Zane subsystem receives and stores:
 
 ### Step 3 — Zane Reads Temperature Sensor
 The Zane subsystem reads:
-- `temperature_c = 26`
+- `temperature_f = 70`
 
 ### Step 4 — Zane Sends Combined Message to Abriana
 The Zane subsystem sends:
 - `jt_data = 1`
-- `temperature_c = 26`
+- `temperature_f = 70`
 
 This combined message is then used by the Abriana subsystem for OLED display.
+
+---
+### Summary
+Zane subsystem is responsible for receiving JT subsystem data, reading temperature sensor data, and sending both values to the Abriana OLED subsystem. In addition to its own subsystem functionality, it must properly participate in the UART daisy-chain loop by forwarding valid packets, ignoring malformed packets, and processing messages addressed to itself.
 
 ---
 
