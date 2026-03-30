@@ -104,18 +104,14 @@ The Zane subsystem must implement a message receiver that:
 - passes on messages intended for someone else
 - processes messages intended for the Zane subsystem
 - discards messages sent by itself that return through the loop
-- ignores messages that are malformed
-- ignores messages larger than the local buffer size
-- ignores characters outside of a valid message frame
+
 
 ### Receiver Behavior
 When a message is received, the Zane subsystem should:
 1. check whether the message is properly framed
-2. verify that the packet length is valid
-3. determine whether the receiver field matches the Zane subsystem or a broadcast address
-4. forward packets intended for other subsystems
-5. discard packets that originated from the Zane subsystem and returned through the loop
-6. process packets addressed to the Zane subsystem
+2. determine whether the receiver field matches the Zane subsystem or a broadcast address
+3. forward packets intended for other subsystems
+4. process packets addressed to the Zane subsystem
 
 ### Processing Rules
 - If a JT data message is received, store the JT data value
@@ -130,12 +126,9 @@ When a message is received, the Zane subsystem should:
 The Zane subsystem must also implement a message sender that:
 - sends properly formatted messages
 - sends an example of each message type with time-varying data
-- includes the correct prefix and suffix
 - uses the correct sender and receiver addresses
 - ensures the message data does not contain invalid framing bytes
 - does not send data longer than the allowed packet size
-- prioritizes forwarding incoming messages before sending its own messages
-- limits the sending rate using proper programming techniques such as timers, interrupts, or non-blocking code
 
 ### Sender Behavior
 The sender should:
