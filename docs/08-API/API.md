@@ -18,14 +18,6 @@ The Zane subsystem receives data from the JT subsystem, reads temperature data f
 
 ---
 
-## Message Protocol Notes
-
-These tables describe only the **message data bytes** inside the class messaging protocol. They do **not** include the packet prefix, suffix, sender, or receiver fields, since those are part of the shared class communication specification.
-
-The message type values shown below are placeholders and must match the final values agreed on by the team.
-
----
-
 ## Messages Received by Zane Subsystem
 
 ### Message Type 1 — JT Data Input
