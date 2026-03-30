@@ -6,11 +6,9 @@ tags:
 ---
 
 ## Overview
-Written context needs to added!
+Written context needs to added! 
 
->Pick **ONLY** one of the two examples show below. **Remove** the other example. **REMOVE notations within the remaining section about being an example.**  
-
-## Bill of Materials (Example as Table)
+## Bill of Materials 
 
 *Table ##: An example of one approach to adding your BOM table to this section.*
 
@@ -23,12 +21,3 @@ Note: Setting it up as a table is nice because it is completely viewable without
 
 * You could also import your BOM via a screenshot of the spreadsheet created BOM
 
-## Bill of Materials (Example as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure ##:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
-
-## Resouce
-
-The Bill of Material as a PDF download is available [*here*](PDF_For_BOM_EXAMPLE.pdf).
