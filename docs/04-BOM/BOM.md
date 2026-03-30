@@ -31,7 +31,5 @@ The Bill Of Materials is a datasheet of all of the required components that need
 | 1A Fuse 1206 | 1 | $1.58 | $1.58 | Littelfuse | 0467001.NR | [DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/0467001-NR/552299) | [Datasheet](https://www.littelfuse.com/assetdocs/littelfuse_fuse_467_datasheet.pdf?assetguid=4a59f034-1cca-460e-a5ba-e1e66247c76d) | F1 |
 | Test Points | 4 | $0.34 | $1.36 | Keystone | 5010 | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/5010/255332) | [Datasheet](https://www.keyelco.com/userAssets/file/K75p62.pdf) | TP1-TP4 |
 
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
+**Figure 1:** Bill of Materials
 
