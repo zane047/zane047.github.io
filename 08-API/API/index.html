@@ -1788,17 +1788,19 @@
 <hr>
 <h2 id="handling-code">Handling Code</h2>
 <h3 id="receiver-requirements">Receiver Requirements</h3>
-<p>The Zane subsystem must implement a message receiver that:
-- handles all messages sent through the UART daisy-chain network
-- passes on messages intended for someone else
-- processes messages intended for the Zane subsystem
-- discards messages sent by itself that return through the loop</p>
+<ul>
+<li>handles all messages sent through the UART daisy-chain network</li>
+<li>passes on messages intended for someone else</li>
+<li>processes messages intended for the Zane subsystem</li>
+<li>discards messages sent by itself that return through the loop</li>
+</ul>
 <h3 id="receiver-behavior">Receiver Behavior</h3>
-<p>When a message is received, the Zane subsystem should:
-1. check whether the message is properly framed
-2. determine whether the receiver field matches the Zane subsystem or a broadcast address
-3. forward packets intended for other subsystems
-4. process packets addressed to the Zane subsystem</p>
+<ul>
+<li>check whether the message is properly framed</li>
+<li>determine whether the receiver field matches the Zane subsystem or a broadcast address</li>
+<li>forward packets intended for other subsystems</li>
+<li>process packets addressed to the Zane subsystem</li>
+</ul>
 <h3 id="processing-rules">Processing Rules</h3>
 <ul>
 <li>If a JT data message is received, store the JT data value</li>
