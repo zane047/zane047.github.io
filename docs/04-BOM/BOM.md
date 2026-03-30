@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-Written context needs to added! 
+The Bill Of Materials is a datasheet of all of the required components that need to go into a PCB. It has the price of each product as well as datasheet links and the manufacture links. This explains how much the product costs, where the product came from, what the product exactly is, as well as how to get the product. 
 
 ## Bill of Materials 
 
@@ -24,7 +24,7 @@ Written context needs to added!
 | 1x03 Pin Header 2.54mm | 1 | $0.30 | $0.30 | Sullins | PPTC031LFBN-RC | [DigiKey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC031LFBN-RC/810143?s=N4IgTCBcDaIApwCoGEAMBmAjAGQGICEA5AWgCVkQBdAXyA) | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf) | J4 |
 | MicroSnap Connector | 1 | $11.21 | $11.21 | Molex | PG164100 | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/PG164100/9562532) | [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/MPLAB%20Snap%20In-Circuit%20Debugger%20IS%20DS50002787A.pdf) | U3 |
 | Inductor 6.3x6.3mm SMD | 1 | $0.85 | $0.85 | Bourns | SRP6030A | [DigiKey](https://www.digikey.com) | [Datasheet](https://www.bourns.com) | L1 |
-| 0.1uF Capacitor 1206 | 10 | $0.08 | $0.80 | KEMET | C1206C104K5RACTU | [DigiKey](https://www.digikey.com/en/products/detail/kemet/C1206C104K5RACTU/411248) | [Datasheet](https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD) | C1-C12 |
+| 0.1uF Capacitor 1206 | 12 | $0.08 | $0.96 | KEMET | C1206C104K5RACTU | [DigiKey](https://www.digikey.com/en/products/detail/kemet/C1206C104K5RACTU/411248) | [Datasheet](https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD) | C1-C12 |
 | 10k Resistor 1206 | 4 | $0.10 | $0.40 | Yageo | RC1206JR-0710KL | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC1206JR-0710KL/729209?s=N4IgTCBcDaIEoGECMYAMA2AUnAtKg7EqgNIAyIAugL5A) | [Datasheet](https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L) | R1, R3, R6, R7 |
 | 5k Resistor 1206 | 2 | $0.10 | $0.20 | Yageo | RC1206JR-075KL | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC1206JR-0775KL/729338?s=N4IgTCBcDaIE4GMCMYAMA2AVnAtKg7PgKwDWANiALoC%2BQA) | [Datasheet](https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L) | R4, R5 |
 | 220Ω Resistor 1206 | 1 | $0.10 | $0.10 | Yageo | RC1206JR-07220RL | [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC1206JR-07220RL/729251?s=N4IgTCBcDaIEoGECMYAMA2AUnAtKg7GGnADIgC6AvkA) | [Datasheet](https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L) | R2 |
