@@ -1,6 +1,6 @@
 # API — Zane Temperature Subsystem
 
-## Subsystem Overview
+
 
 ### Subsystem Role
 The Zane subsystem receives data from the JT subsystem, reads temperature data from a local temperature sensor, and sends both values to the Abriana subsystem for display on the OLED. This subsystem is part of the UART daisy-chain communication loop, so it must also forward messages intended for other subsystems while processing messages intended for itself.
