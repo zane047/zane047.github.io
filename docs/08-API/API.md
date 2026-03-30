@@ -99,7 +99,6 @@ These commands may be broadcast to all subsystems on the UART network. If used b
 ## Handling Code
 
 ### Receiver Requirements
-The Zane subsystem must implement a message receiver that:
 - handles all messages sent through the UART daisy-chain network
 - passes on messages intended for someone else
 - processes messages intended for the Zane subsystem
@@ -107,11 +106,10 @@ The Zane subsystem must implement a message receiver that:
 
 
 ### Receiver Behavior
-When a message is received, the Zane subsystem should:
-1. check whether the message is properly framed
-2. determine whether the receiver field matches the Zane subsystem or a broadcast address
-3. forward packets intended for other subsystems
-4. process packets addressed to the Zane subsystem
+- check whether the message is properly framed
+- determine whether the receiver field matches the Zane subsystem or a broadcast address
+- forward packets intended for other subsystems
+- process packets addressed to the Zane subsystem
 
 ### Processing Rules
 - If a JT data message is received, store the JT data value
