@@ -84,7 +84,7 @@ If the team uses broadcast messages such as start, stop, reset, or emergency sto
 - `2` = Reset
 
 #### Description
-These commands may be broadcast to all subsystems on the UART network. If used by the team, the Zane subsystem must recognize the command and respond appropriately.
+These commands may be broadcast to all subsystems on the UART network. The Zane subsystem must recognize the command and respond appropriately.
 
 ---
 
