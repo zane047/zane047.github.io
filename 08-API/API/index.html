@@ -1684,7 +1684,7 @@
 <td><code>temperature_c</code></td>
 <td><code>int8_t</code></td>
 <td>1</td>
-<td>-40</td>
+<td>-55</td>
 <td>125</td>
 <td>26</td>
 </tr>
@@ -1729,10 +1729,10 @@
 </tr>
 <tr>
 <td>3</td>
-<td><code>temperature_f</code></td>
+<td><code>temperature_c</code></td>
 <td><code>int8_t</code></td>
 <td>1</td>
-<td>-40</td>
+<td>-55</td>
 <td>125</td>
 <td>26</td>
 </tr>
@@ -1839,11 +1839,11 @@
 - <code>jt_data = 1</code></p>
 <h3 id="step-3-zane-reads-temperature-sensor">Step 3 — Zane Reads Temperature Sensor</h3>
 <p>The Zane subsystem reads:
-- <code>temperature_f = 70</code></p>
+- <code>temperature_c = 26</code></p>
 <h3 id="step-4-zane-sends-combined-message-to-abriana">Step 4 — Zane Sends Combined Message to Abriana</h3>
 <p>The Zane subsystem sends:
 - <code>jt_data = 1</code>
-- <code>temperature_f = 70</code></p>
+- <code>temperature_c = 26</code></p>
 <p>This combined message is then used by the Abriana subsystem for OLED display.</p>
 <hr>
 <h3 id="summary">Summary</h3>
