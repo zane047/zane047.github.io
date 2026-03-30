@@ -1149,6 +1149,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1580,6 +1589,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1616,8 +1634,8 @@
 <p><strong>JT Subsystem → Zane Subsystem → Abriana OLED Subsystem</strong></p>
 <h3 id="zane-subsystem-responsibilities">Zane Subsystem Responsibilities</h3>
 <ul>
-<li>Receive JT data</li>
-<li>Store JT data</li>
+<li>Receive JT subsystem data</li>
+<li>Store JT subsystem data</li>
 <li>Read temperature sensor data</li>
 <li>Combine JT data and temperature data</li>
 <li>Send combined data to Abriana</li>
@@ -1705,9 +1723,6 @@
 </table>
 <h4 id="description_1">Description</h4>
 <p>This message contains the current temperature measured by the local temperature sensor in degrees Celsius. The measured temperature is stored as an integer value and used in the outgoing display-data message.</p>
-<blockquote>
-<p><strong>Note:</strong> If the final team design requires decimal precision, this field may need to be changed to a larger type such as <code>int16_t</code> and scaled by a factor of 10.</p>
-</blockquote>
 <hr>
 <h2 id="messages-sent-by-zane-subsystem">Messages Sent by Zane Subsystem</h2>
 <h3 id="message-type-3-combined-display-data-to-abriana">Message Type 3 — Combined Display Data to Abriana</h3>
@@ -1745,7 +1760,7 @@
 </tr>
 <tr>
 <td>3</td>
-<td><code>temperature_c</code></td>
+<td><code>temperature_f</code></td>
 <td><code>int8_t</code></td>
 <td>1</td>
 <td>-40</td>
@@ -1855,12 +1870,15 @@
 - <code>jt_data = 1</code></p>
 <h3 id="step-3-zane-reads-temperature-sensor">Step 3 — Zane Reads Temperature Sensor</h3>
 <p>The Zane subsystem reads:
-- <code>temperature_c = 26</code></p>
+- <code>temperature_f = 70</code></p>
 <h3 id="step-4-zane-sends-combined-message-to-abriana">Step 4 — Zane Sends Combined Message to Abriana</h3>
 <p>The Zane subsystem sends:
 - <code>jt_data = 1</code>
-- <code>temperature_c = 26</code></p>
+- <code>temperature_f = 70</code></p>
 <p>This combined message is then used by the Abriana subsystem for OLED display.</p>
+<hr>
+<h3 id="summary">Summary</h3>
+<p>Zane subsystem is responsible for receiving JT subsystem data, reading temperature sensor data, and sending both values to the Abriana OLED subsystem. In addition to its own subsystem functionality, it must properly participate in the UART daisy-chain loop by forwarding valid packets, ignoring malformed packets, and processing messages addressed to itself.</p>
 <hr>
 
 
