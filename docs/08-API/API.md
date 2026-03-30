@@ -51,7 +51,7 @@ This message represents the local temperature data measured by the temperature s
 | Byte | Variable Name | Data Type | Number of Bytes | Min Value | Max Value | Example |
 |------|---------------|-----------|-----------------|-----------|-----------|---------|
 | 1 | `message_type` | `uint8_t` | 1 | 2 | 2 | 2 |
-| 2 | `temperature_c` | `int8_t` | 1 | -40 | 125 | 26 |
+| 2 | `temperature_c` | `int8_t` | 1 | -55 | 125 | 26 |
 
 #### Description
 This message contains the current temperature measured by the local temperature sensor in degrees Celsius. The measured temperature is stored as an integer value and used in the outgoing display-data message.
@@ -68,7 +68,7 @@ This is the main output message sent from the Zane subsystem to the Abriana OLED
 |------|---------------|-----------|-----------------|-----------|-----------|---------|
 | 1 | `message_type` | `uint8_t` | 1 | 3 | 3 | 3 |
 | 2 | `jt_data` | `uint8_t` | 1 | 0 | 255 | 1 |
-| 3 | `temperature_f` | `int8_t` | 1 | -40 | 125 | 26 |
+| 3 | `temperature_c` | `int8_t` | 1 | -55 | 125 | 26 |
 
 #### Description
 This message is sent from the Zane subsystem to the Abriana subsystem. It contains both the stored JT data and the most recent temperature reading. The Abriana subsystem uses this message to display both values on the OLED.
@@ -159,12 +159,12 @@ The Zane subsystem receives and stores:
 
 ### Step 3 — Zane Reads Temperature Sensor
 The Zane subsystem reads:
-- `temperature_f = 70`
+- `temperature_c = 26`
 
 ### Step 4 — Zane Sends Combined Message to Abriana
 The Zane subsystem sends:
 - `jt_data = 1`
-- `temperature_f = 70`
+- `temperature_c = 26`
 
 This combined message is then used by the Abriana subsystem for OLED display.
 
