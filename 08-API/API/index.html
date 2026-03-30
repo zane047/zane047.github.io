@@ -1810,19 +1810,21 @@
 </ul>
 <hr>
 <h2 id="sender-requirements">Sender Requirements</h2>
-<p>The Zane subsystem must also implement a message sender that:
-- sends properly formatted messages
-- sends an example of each message type with time-varying data
-- uses the correct sender and receiver addresses
-- ensures the message data does not contain invalid framing bytes
-- does not send data longer than the allowed packet size</p>
+<ul>
+<li>sends properly formatted messages</li>
+<li>sends an example of each message type with time-varying data</li>
+<li>uses the correct sender and receiver addresses</li>
+<li>ensures the message data does not contain invalid framing bytes</li>
+<li>does not send data longer than the allowed packet size</li>
+</ul>
 <h3 id="sender-behavior">Sender Behavior</h3>
-<p>The sender should:
-1. read the current temperature sensor value
-2. retrieve the most recently stored JT data
-3. build a valid outgoing message packet
-4. send the combined data message to Abriana
-5. repeat at a controlled rate</p>
+<ul>
+<li>read the current temperature sensor value</li>
+<li>retrieve the most recently stored JT data</li>
+<li>build a valid outgoing message packet</li>
+<li>send the combined data message to Abriana</li>
+<li>repeat at a controlled rate</li>
+</ul>
 <hr>
 <h2 id="example-message-flow">Example Message Flow</h2>
 <h3 id="step-1-jt-sends-data-to-zane">Step 1 — JT Sends Data to Zane</h3>
