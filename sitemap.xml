@@ -36,6 +36,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/08-API/API/</loc>
+         <lastmod>2026-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/Appendix/</loc>
          <lastmod>2026-03-30</lastmod>
          <changefreq>daily</changefreq>
