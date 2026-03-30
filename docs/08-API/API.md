@@ -121,7 +121,6 @@ These commands may be broadcast to all subsystems on the UART network. If used b
 
 ## Sender Requirements
 
-The Zane subsystem must also implement a message sender that:
 - sends properly formatted messages
 - sends an example of each message type with time-varying data
 - uses the correct sender and receiver addresses
@@ -129,12 +128,11 @@ The Zane subsystem must also implement a message sender that:
 - does not send data longer than the allowed packet size
 
 ### Sender Behavior
-The sender should:
-1. read the current temperature sensor value
-2. retrieve the most recently stored JT data
-3. build a valid outgoing message packet
-4. send the combined data message to Abriana
-5. repeat at a controlled rate
+- read the current temperature sensor value
+- retrieve the most recently stored JT data
+- build a valid outgoing message packet
+- send the combined data message to Abriana
+- repeat at a controlled rate
 
 ---
 
