@@ -3,7 +3,7 @@
 
 
 ### Subsystem Role
-The Zane subsystem receives data from the JT subsystem, reads temperature data from a local temperature sensor, and sends both values to the Abriana subsystem for display on the OLED. This subsystem is part of the UART daisy-chain communication loop, so it must also forward messages intended for other subsystems while processing messages intended for itself. This is shown in the [Team 307 ](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/04-Team-Block-Diagram/Team-Diagram/) Changes were made and will be updated to the team website.
+The Zane subsystem receives data from the JT subsystem, reads temperature data from a local temperature sensor, and sends both values to the Abriana subsystem for display on the OLED. This subsystem is part of the UART daisy-chain communication loop, so it must also forward messages intended for other subsystems while processing messages intended for itself. **Recent Changes were made and was updated to the team website [Team 307 ](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/04-Team-Block-Diagram/Team-Diagram/).**
 
 ### Data Flow
 **JT Subsystem → Zane Subsystem → Abriana OLED Subsystem**
