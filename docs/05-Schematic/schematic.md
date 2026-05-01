@@ -14,4 +14,4 @@ computing temperature senssing data, and then sends both data's off to a new sub
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf),and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](ExampleSchematic.pdf)
